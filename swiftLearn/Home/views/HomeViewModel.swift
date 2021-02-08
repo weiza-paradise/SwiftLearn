@@ -12,6 +12,7 @@ import RxDataSources
 struct ClassInfo {
     var name = ""
     var `class` : AnyClass
+    var link = ""
 }
 
 struct ClassHeaderInfo {
@@ -25,7 +26,8 @@ struct HomeViewModel {
         ClassInfo(name: "swift 基础", class: BasisViewController.self),
         ClassInfo(name: "动画效果", class: AnimationViewController.self),
         ClassInfo(name: "画图", class: PaintViewController.self),
-        ClassInfo(name: "算法题", class: PaintViewController.self)
+        ClassInfo(name: "算法题", class: PaintViewController.self),
+        ClassInfo(name: "iOS底层进阶", class: BottomLayerViewController.self)
 
     ]
     

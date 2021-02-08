@@ -16,11 +16,18 @@ class TableViewController: BaseViewController {
     
     fileprivate var style: TableStyle = .plain
     
+    public var listData = [ClassInfo]() {
+        didSet {
+            tableView.reloadData()
+        }
+    }
+        
     lazy var tableView: UITableView = {
         let table = UITableView()
-//        table.delegate   = self
-//        table.dataSource = self
-        table.rowHeight  = 100
+        table.delegate   = self
+        table.dataSource = self
+        table.register(cellType: HomeListCell.self)
+        table.rowHeight  = 70
         return table
     }()
     
@@ -38,26 +45,32 @@ class TableViewController: BaseViewController {
     
 }
 
-//extension TableViewController: UITableViewDelegate,UITableViewDataSource {
-//
-//    //MARK: - UITableViewDataSource
-//
-//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
-//        listData.homeListData.count
-//    }
-//
-//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
-//        let cell = tableView.dequeueReusableCell(for: indexPath, cellType: HomeListCell.self)
-//        let info = listData.homeListData[indexPath.row]
-//        cell.titleLable.text = info.name
-//        return cell
-//    }
-//
-//    //MARK: - UITableViewDelegate
-//
-//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        let info = listData.homeListData[indexPath.row]
-//        pushStringView(className: info.className)
-//    }
-//
-//}
+extension TableViewController: UITableViewDelegate,UITableViewDataSource {
+
+    //MARK: - UITableViewDataSource
+
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
+        listData.count
+    }
+
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
+        let cell = tableView.dequeueReusableCell(for: indexPath, cellType: HomeListCell.self)
+        let info = listData[indexPath.row]
+        cell.titleLable.text = info.name
+        return cell
+    }
+
+    //MARK: - UITableViewDelegate
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let info = listData[indexPath.row]
+        if info.link.isEmpty {
+            pushViewController(info.class)
+        }else{
+            let webView = WebViewController()
+            webView.startUrl = info.link
+            webView.titleStr = info.name
+            navigationController?.pushViewController(webView, animated: true)
+        }
+    }
+
+}

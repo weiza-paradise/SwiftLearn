@@ -16,6 +16,9 @@ import RxDataSources
 import Kingfisher
 import Alamofire
 import SwifterSwift
+import WebKit
+
+public let processPool = WKProcessPool()
 
 public let screenWidth  = UIScreen.main.bounds.width
 public let screenHeight = UIScreen.main.bounds.height

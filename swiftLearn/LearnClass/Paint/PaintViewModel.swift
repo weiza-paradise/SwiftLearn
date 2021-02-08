@@ -150,6 +150,8 @@ import Foundation
  *
  */
 
+//底层
+
 struct PaintViewModel {
     
     let paintListData : [ClassInfo] = [
@@ -171,7 +173,6 @@ struct PaintViewModel {
         ClassInfo(name: "绘制虚线", class: PaintDottedLineViewController.self),
         ClassInfo(name: "绘制柱状图动画", class: HistogramViewController.self),
         ClassInfo(name: "蜘蛛网状图", class: HistogramViewController.self),
-
     ]
     
 }
