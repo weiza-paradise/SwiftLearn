@@ -34,6 +34,7 @@
 		B61D18FD25D0D32E000F4A7B /* BottomLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D18FC25D0D32E000F4A7B /* BottomLayerViewController.swift */; };
 		B61D190925D0E49C000F4A7B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D190725D0E49C000F4A7B /* WebViewController.swift */; };
 		B61D190A25D0E49C000F4A7B /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B61D190825D0E49C000F4A7B /* WebViewController.xib */; };
+		B61D191C25D10D1C000F4A7B /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D191B25D10D1B000F4A7B /* AlgorithmViewController.swift */; };
 		B61F6CD225C15AEE00E3A136 /* HeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F6CD125C15AEE00E3A136 /* HeaderFooterView.swift */; };
 		B61F6CEE25C15FC300E3A136 /* BasisAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F6CED25C15FC300E3A136 /* BasisAnimationViewController.swift */; };
 		B6B5AA4625C052420024AADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B5AA4425C052420024AADD /* Main.storyboard */; };
@@ -124,6 +125,7 @@
 		B61D18FC25D0D32E000F4A7B /* BottomLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomLayerViewController.swift; sourceTree = "<group>"; };
 		B61D190725D0E49C000F4A7B /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		B61D190825D0E49C000F4A7B /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		B61D191B25D10D1B000F4A7B /* AlgorithmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmViewController.swift; sourceTree = "<group>"; };
 		B61F6CD125C15AEE00E3A136 /* HeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderFooterView.swift; sourceTree = "<group>"; };
 		B61F6CED25C15FC300E3A136 /* BasisAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasisAnimationViewController.swift; sourceTree = "<group>"; };
 		B6B5AA3B25C052420024AADD /* swiftLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -241,6 +243,14 @@
 			path = "iOS 底层进阶";
 			sourceTree = "<group>";
 		};
+		B61D192025D10D21000F4A7B /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				B61D191B25D10D1B000F4A7B /* AlgorithmViewController.swift */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
 		B6B5AA3225C052420024AADD = {
 			isa = PBXGroup;
 			children = (
@@ -300,6 +310,7 @@
 		B6B5AA7425C052800024AADD /* LearnClass */ = {
 			isa = PBXGroup;
 			children = (
+				B61D192025D10D21000F4A7B /* Algorithm */,
 				B61D18F525D0D2ED000F4A7B /* iOS 底层进阶 */,
 				B600383B25C28A7D00027193 /* Paint */,
 				B6B5AB0225C107B80024AADD /* Animation */,
@@ -664,6 +675,7 @@
 				B6B5AAAE25C052810024AADD /* Global.swift in Sources */,
 				B6B5AA9D25C052810024AADD /* BaseCollectionViewCell.swift in Sources */,
 				B60038B725C3F7DA00027193 /* PieChartViewController.swift in Sources */,
+				B61D191C25D10D1C000F4A7B /* AlgorithmViewController.swift in Sources */,
 				B600386025C2C26C00027193 /* PaintTrajectoryViewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
