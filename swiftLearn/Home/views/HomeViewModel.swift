@@ -27,8 +27,8 @@ struct HomeViewModel {
         ClassInfo(name: "动画效果", class: AnimationViewController.self),
         ClassInfo(name: "画图", class: PaintViewController.self),
         ClassInfo(name: "算法题", class: AlgorithmViewController.self),
-        ClassInfo(name: "iOS底层进阶", class: BottomLayerViewController.self)
-
+        ClassInfo(name: "iOS底层进阶", class: BottomLayerViewController.self),
+        ClassInfo(name: "第三方库", class: ThirdlibraryViewController.self),
     ]
     
 }

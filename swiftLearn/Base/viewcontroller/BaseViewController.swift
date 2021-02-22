@@ -14,6 +14,7 @@ class BaseViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = UIColor(hex: 0xf1f1f1)
         //UIScrollView.appearance().contentInsetAdjustmentBehavior = .never
+        //self.edgesForExtendedLayout = .top
         configUI()
     }
     

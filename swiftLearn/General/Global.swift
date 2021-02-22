@@ -14,7 +14,6 @@ import RxCocoa
 import NSObject_Rx
 import RxDataSources
 import Kingfisher
-import Alamofire
 import SwifterSwift
 import WebKit
 
@@ -24,12 +23,18 @@ public let screenWidth  = UIScreen.main.bounds.width
 public let screenHeight = UIScreen.main.bounds.height
 
 //MARK: 是否iphonex
-public let isIPhoneX: Bool = (screenHeight == 812 || screenHeight == 896) ? true : false
+public let isIPhoneX: Bool = {
+    var isx = false
+    if #available(iOS 11.0, *) {
+        isx = UIApplication.shared.windows.first { $0.isKeyWindow }? .safeAreaInsets.bottom ?? 0.0 > 0.0
+    }
+    return isx
+}()
 //MARK: nav tab
-public let statusBarHeight      = isIPhoneX ? 44.0 : 20.0
-public let navBarHeight         = isIPhoneX ? 88.0 : 64.0
-public let safeAreaBottomHeight = isIPhoneX ? 34.0 : 0.0
-public let tabBarHeight         = isIPhoneX ? 83.0 : 49.0
+public let statusBarHeight      = isIPhoneX ? 44 : 20
+public let navBarHeight         = isIPhoneX ? 88 : 64
+public let safeAreaBottomHeight = isIPhoneX ? 34 : 0
+public let tabBarHeight         = isIPhoneX ? 83 : 49
 //MARK: iPhone6 为基准去适配
-public let iPhone6ScaleWidth    = screenWidth / 375.0
-public let iPhone6ScaleHeight   = screenHeight / 667.0
+public let iPhone6ScaleWidth    = screenWidth / 375
+public let iPhone6ScaleHeight   = screenHeight / 667

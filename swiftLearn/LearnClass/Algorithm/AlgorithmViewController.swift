@@ -7,6 +7,7 @@
 
 import UIKit
 
+//算法
 class AlgorithmViewController: BaseViewController {
 
     override func viewDidLoad() {
