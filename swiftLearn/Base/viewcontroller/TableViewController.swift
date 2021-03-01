@@ -63,7 +63,13 @@ extension TableViewController: UITableViewDelegate,UITableViewDataSource {
     //MARK: - UITableViewDelegate
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let info = listData[indexPath.row]
-        if info.link.isEmpty {
+        if info.isStoryboard {
+            let sb = UIStoryboard(name: info.storyboardName, bundle: nil)
+            let vcName = NSStringFromClass(info.class)
+            print(vcName)
+            let vc = sb.instantiateViewController(withIdentifier: info.storyboardId)
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if info.link.isEmpty {
             pushViewController(info.class)
         }else{
             let webView = WebViewController()

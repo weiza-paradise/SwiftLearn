@@ -39,6 +39,10 @@
 		B61F6CEE25C15FC300E3A136 /* BasisAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F6CED25C15FC300E3A136 /* BasisAnimationViewController.swift */; };
 		B63FEE8725E0EEDD00A3715C /* ThirdlibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63FEE8625E0EEDD00A3715C /* ThirdlibraryViewController.swift */; };
 		B63FEE8C25E0F14500A3715C /* AlamofireLearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63FEE8B25E0F14500A3715C /* AlamofireLearnViewController.swift */; };
+		B6B066DF25ECDB3A0075A69E /* RxLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B066DE25ECDB3A0075A69E /* RxLabelViewController.swift */; };
+		B6B066E425ECDB520075A69E /* RxSwift.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B066E325ECDB520075A69E /* RxSwift.storyboard */; };
+		B6B066E925ECE1360075A69E /* RxSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B066E825ECE1360075A69E /* RxSwiftViewController.swift */; };
+		B6B066EE25ECF4CA0075A69E /* RxBtnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B066ED25ECF4CA0075A69E /* RxBtnViewController.swift */; };
 		B6B5AA4625C052420024AADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B5AA4425C052420024AADD /* Main.storyboard */; };
 		B6B5AA4825C052460024AADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B5AA4725C052460024AADD /* Assets.xcassets */; };
 		B6B5AA4B25C052460024AADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B5AA4925C052460024AADD /* LaunchScreen.storyboard */; };
@@ -132,6 +136,10 @@
 		B61F6CED25C15FC300E3A136 /* BasisAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasisAnimationViewController.swift; sourceTree = "<group>"; };
 		B63FEE8625E0EEDD00A3715C /* ThirdlibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdlibraryViewController.swift; sourceTree = "<group>"; };
 		B63FEE8B25E0F14500A3715C /* AlamofireLearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireLearnViewController.swift; sourceTree = "<group>"; };
+		B6B066DE25ECDB3A0075A69E /* RxLabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxLabelViewController.swift; sourceTree = "<group>"; };
+		B6B066E325ECDB520075A69E /* RxSwift.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxSwift.storyboard; sourceTree = "<group>"; };
+		B6B066E825ECE1360075A69E /* RxSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftViewController.swift; sourceTree = "<group>"; };
+		B6B066ED25ECF4CA0075A69E /* RxBtnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxBtnViewController.swift; sourceTree = "<group>"; };
 		B6B5AA3B25C052420024AADD /* swiftLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B5AA4525C052420024AADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6B5AA4725C052460024AADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -258,10 +266,22 @@
 		B63FEE8525E0EE9E00A3715C /* ThirdLibsystem */ = {
 			isa = PBXGroup;
 			children = (
+				B6B066DA25ECDAAC0075A69E /* rxswift */,
 				B63FEE8625E0EEDD00A3715C /* ThirdlibraryViewController.swift */,
 				B63FEE8B25E0F14500A3715C /* AlamofireLearnViewController.swift */,
 			);
 			path = ThirdLibsystem;
+			sourceTree = "<group>";
+		};
+		B6B066DA25ECDAAC0075A69E /* rxswift */ = {
+			isa = PBXGroup;
+			children = (
+				B6B066DE25ECDB3A0075A69E /* RxLabelViewController.swift */,
+				B6B066E325ECDB520075A69E /* RxSwift.storyboard */,
+				B6B066E825ECE1360075A69E /* RxSwiftViewController.swift */,
+				B6B066ED25ECF4CA0075A69E /* RxBtnViewController.swift */,
+			);
+			path = rxswift;
 			sourceTree = "<group>";
 		};
 		B6B5AA3225C052420024AADD = {
@@ -560,6 +580,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B066E425ECDB520075A69E /* RxSwift.storyboard in Resources */,
 				B6B5AAA325C052810024AADD /* VCG2116.jpg in Resources */,
 				B6B5AAA525C052810024AADD /* VCG2113.jpg in Resources */,
 				B6B5AAA925C052810024AADD /* VCG21112.jpg in Resources */,
@@ -647,6 +668,7 @@
 				B6B5AAAF25C052810024AADD /* AppDelegate.swift in Sources */,
 				B6B5AA9F25C052810024AADD /* BaseCollectionReusableView.swift in Sources */,
 				B6B5AA9A25C052810024AADD /* ClosureLearn.swift in Sources */,
+				B6B066EE25ECF4CA0075A69E /* RxBtnViewController.swift in Sources */,
 				B60038A825C3F0F000027193 /* PaintDottedLineViewController.swift in Sources */,
 				B600389E25C3EEB700027193 /* TextLayerViewController.swift in Sources */,
 				B600384C25C29DFE00027193 /* PaintShadowViewController.swift in Sources */,
@@ -663,6 +685,7 @@
 				B60038A325C3EF4100027193 /* CalculationViewController.swift in Sources */,
 				B63FEE8725E0EEDD00A3715C /* ThirdlibraryViewController.swift in Sources */,
 				B6B5AB5D25C110630024AADD /* AnimationViewModel.swift in Sources */,
+				B6B066E925ECE1360075A69E /* RxSwiftViewController.swift in Sources */,
 				B61D18FD25D0D32E000F4A7B /* BottomLayerViewController.swift in Sources */,
 				B6B5AA9E25C052810024AADD /* BaseTableViewHeaderFooterView.swift in Sources */,
 				B61F6CEE25C15FC300E3A136 /* BasisAnimationViewController.swift in Sources */,
@@ -693,6 +716,7 @@
 				B60038B725C3F7DA00027193 /* PieChartViewController.swift in Sources */,
 				B61D191C25D10D1C000F4A7B /* AlgorithmViewController.swift in Sources */,
 				B600386025C2C26C00027193 /* PaintTrajectoryViewViewController.swift in Sources */,
+				B6B066DF25ECDB3A0075A69E /* RxLabelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

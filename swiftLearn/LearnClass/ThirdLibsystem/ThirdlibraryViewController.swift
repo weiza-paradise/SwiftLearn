@@ -11,6 +11,8 @@ struct ThirdlibraryModel {
 
     let list : [ClassInfo] = [
         ClassInfo(name: "Alamofire", class: AlamofireLearnViewController.self),
+        ClassInfo(name: "EmptyDataSet-Swift", class: WebViewController.self, link: "https://www.yuque.com/taidu-9hlv6/emiuxa/yzzmcd"),
+        ClassInfo(name: "RxSwift", class: RxSwiftViewController.self),
     ]
     
 }

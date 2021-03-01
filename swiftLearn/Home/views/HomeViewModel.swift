@@ -10,9 +10,12 @@ import RxSwift
 import RxDataSources
 
 struct ClassInfo {
-    var name = ""
+    var name           = ""
     var `class` : AnyClass
-    var link = ""
+    var link           = ""
+    var isStoryboard   = false
+    var storyboardId   = ""
+    var storyboardName = ""
 }
 
 struct ClassHeaderInfo {
