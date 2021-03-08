@@ -39,6 +39,14 @@
 		B61F6CEE25C15FC300E3A136 /* BasisAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F6CED25C15FC300E3A136 /* BasisAnimationViewController.swift */; };
 		B63FEE8725E0EEDD00A3715C /* ThirdlibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63FEE8625E0EEDD00A3715C /* ThirdlibraryViewController.swift */; };
 		B63FEE8C25E0F14500A3715C /* AlamofireLearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63FEE8B25E0F14500A3715C /* AlamofireLearnViewController.swift */; };
+		B696175325F5B8B700C6BE23 /* Foundation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B696175225F5B8B700C6BE23 /* Foundation+Extension.swift */; };
+		B6A8219525EDDF1400035695 /* RxTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A8219425EDDF1400035695 /* RxTextFieldViewController.swift */; };
+		B6A8219A25EE062F00035695 /* RxTextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A8219925EE062F00035695 /* RxTextViewViewController.swift */; };
+		B6A8219F25EE0FA700035695 /* RxOtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A8219E25EE0FA700035695 /* RxOtherViewController.swift */; };
+		B6A821A425EE17DA00035695 /* RxDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A821A325EE17DA00035695 /* RxDatePickerViewController.swift */; };
+		B6A821BA25EF275900035695 /* RxCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A821B925EF275900035695 /* RxCreateViewController.swift */; };
+		B6A821BF25F0886100035695 /* RxSubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A821BE25F0886000035695 /* RxSubjectViewController.swift */; };
+		B6A821C425F1CDDC00035695 /* RxOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A821C325F1CDDC00035695 /* RxOperatorViewController.swift */; };
 		B6B066DF25ECDB3A0075A69E /* RxLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B066DE25ECDB3A0075A69E /* RxLabelViewController.swift */; };
 		B6B066E425ECDB520075A69E /* RxSwift.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B066E325ECDB520075A69E /* RxSwift.storyboard */; };
 		B6B066E925ECE1360075A69E /* RxSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B066E825ECE1360075A69E /* RxSwiftViewController.swift */; };
@@ -136,6 +144,14 @@
 		B61F6CED25C15FC300E3A136 /* BasisAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasisAnimationViewController.swift; sourceTree = "<group>"; };
 		B63FEE8625E0EEDD00A3715C /* ThirdlibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdlibraryViewController.swift; sourceTree = "<group>"; };
 		B63FEE8B25E0F14500A3715C /* AlamofireLearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireLearnViewController.swift; sourceTree = "<group>"; };
+		B696175225F5B8B700C6BE23 /* Foundation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+Extension.swift"; sourceTree = "<group>"; };
+		B6A8219425EDDF1400035695 /* RxTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTextFieldViewController.swift; sourceTree = "<group>"; };
+		B6A8219925EE062F00035695 /* RxTextViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTextViewViewController.swift; sourceTree = "<group>"; };
+		B6A8219E25EE0FA700035695 /* RxOtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxOtherViewController.swift; sourceTree = "<group>"; };
+		B6A821A325EE17DA00035695 /* RxDatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxDatePickerViewController.swift; sourceTree = "<group>"; };
+		B6A821B925EF275900035695 /* RxCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCreateViewController.swift; sourceTree = "<group>"; };
+		B6A821BE25F0886000035695 /* RxSubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSubjectViewController.swift; sourceTree = "<group>"; };
+		B6A821C325F1CDDC00035695 /* RxOperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxOperatorViewController.swift; sourceTree = "<group>"; };
 		B6B066DE25ECDB3A0075A69E /* RxLabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxLabelViewController.swift; sourceTree = "<group>"; };
 		B6B066E325ECDB520075A69E /* RxSwift.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxSwift.storyboard; sourceTree = "<group>"; };
 		B6B066E825ECE1360075A69E /* RxSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftViewController.swift; sourceTree = "<group>"; };
@@ -280,6 +296,13 @@
 				B6B066E325ECDB520075A69E /* RxSwift.storyboard */,
 				B6B066E825ECE1360075A69E /* RxSwiftViewController.swift */,
 				B6B066ED25ECF4CA0075A69E /* RxBtnViewController.swift */,
+				B6A8219425EDDF1400035695 /* RxTextFieldViewController.swift */,
+				B6A8219925EE062F00035695 /* RxTextViewViewController.swift */,
+				B6A8219E25EE0FA700035695 /* RxOtherViewController.swift */,
+				B6A821A325EE17DA00035695 /* RxDatePickerViewController.swift */,
+				B6A821B925EF275900035695 /* RxCreateViewController.swift */,
+				B6A821BE25F0886000035695 /* RxSubjectViewController.swift */,
+				B6A821C325F1CDDC00035695 /* RxOperatorViewController.swift */,
 			);
 			path = rxswift;
 			sourceTree = "<group>";
@@ -404,6 +427,7 @@
 			isa = PBXGroup;
 			children = (
 				B6B5AA9025C052800024AADD /* Global.swift */,
+				B696175225F5B8B700C6BE23 /* Foundation+Extension.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -678,6 +702,7 @@
 				B6B5AAB325C052810024AADD /* SceneDelegate.swift in Sources */,
 				B6B5AA9C25C052810024AADD /* BaseTableViewCell.swift in Sources */,
 				B6B5AB5825C1104C0024AADD /* AnimationViewController.swift in Sources */,
+				B6A8219525EDDF1400035695 /* RxTextFieldViewController.swift in Sources */,
 				B6B5AAB025C052810024AADD /* ViewController.swift in Sources */,
 				B600387325C3B8E200027193 /* QuadRaticBezierViewController.swift in Sources */,
 				B600385B25C2AD7E00027193 /* PaintRoundedRectangleViewController.swift in Sources */,
@@ -687,8 +712,13 @@
 				B6B5AB5D25C110630024AADD /* AnimationViewModel.swift in Sources */,
 				B6B066E925ECE1360075A69E /* RxSwiftViewController.swift in Sources */,
 				B61D18FD25D0D32E000F4A7B /* BottomLayerViewController.swift in Sources */,
+				B6A821BA25EF275900035695 /* RxCreateViewController.swift in Sources */,
+				B6A821A425EE17DA00035695 /* RxDatePickerViewController.swift in Sources */,
 				B6B5AA9E25C052810024AADD /* BaseTableViewHeaderFooterView.swift in Sources */,
+				B6A8219F25EE0FA700035695 /* RxOtherViewController.swift in Sources */,
+				B6A821BF25F0886100035695 /* RxSubjectViewController.swift in Sources */,
 				B61F6CEE25C15FC300E3A136 /* BasisAnimationViewController.swift in Sources */,
+				B6A821C425F1CDDC00035695 /* RxOperatorViewController.swift in Sources */,
 				B600387825C3DF4100027193 /* TripleBezierViewController.swift in Sources */,
 				B60038B225C3F16500027193 /* SpiderWebViewController.swift in Sources */,
 				B61D190925D0E49C000F4A7B /* WebViewController.swift in Sources */,
@@ -696,11 +726,13 @@
 				B60037F325C2649600027193 /* TransitionAnimationViewController.swift in Sources */,
 				B6B5AAB225C052810024AADD /* HomeListCell.swift in Sources */,
 				B61F6CD225C15AEE00E3A136 /* HeaderFooterView.swift in Sources */,
+				B696175325F5B8B700C6BE23 /* Foundation+Extension.swift in Sources */,
 				B6B5AB6225C114830024AADD /* BaseAnimationViewController.swift in Sources */,
 				B600385625C2A6C500027193 /* PaintCilcleViewController.swift in Sources */,
 				B600374025C24A8000027193 /* KeyFrameAnimationViewController.swift in Sources */,
 				B600386A25C3ACFC00027193 /* BezierPathPropertyViewController.swift in Sources */,
 				B60037B825C2563E00027193 /* GroupAnimationViewController.swift in Sources */,
+				B6A8219A25EE062F00035695 /* RxTextViewViewController.swift in Sources */,
 				B60038BC25C3F81E00027193 /* RYQPieChartView.swift in Sources */,
 				B6B5AB9225C125E10024AADD /* TableViewController.swift in Sources */,
 				B6B5AAB125C052810024AADD /* HomeViewModel.swift in Sources */,
