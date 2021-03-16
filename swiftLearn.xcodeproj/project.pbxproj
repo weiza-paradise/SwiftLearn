@@ -37,8 +37,18 @@
 		B61D191C25D10D1C000F4A7B /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D191B25D10D1B000F4A7B /* AlgorithmViewController.swift */; };
 		B61F6CD225C15AEE00E3A136 /* HeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F6CD125C15AEE00E3A136 /* HeaderFooterView.swift */; };
 		B61F6CEE25C15FC300E3A136 /* BasisAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F6CED25C15FC300E3A136 /* BasisAnimationViewController.swift */; };
+		B62BBC7025F9ED0700808D30 /* LoginDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BBC6F25F9ED0700808D30 /* LoginDemoViewController.swift */; };
+		B62BBC8125F9EECF00808D30 /* LoginDemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BBC8025F9EECF00808D30 /* LoginDemoViewModel.swift */; };
+		B62BBC8625F9FB6100808D30 /* LoginDemoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BBC8525F9FB6100808D30 /* LoginDemoService.swift */; };
 		B63FEE8725E0EEDD00A3715C /* ThirdlibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63FEE8625E0EEDD00A3715C /* ThirdlibraryViewController.swift */; };
 		B63FEE8C25E0F14500A3715C /* AlamofireLearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63FEE8B25E0F14500A3715C /* AlamofireLearnViewController.swift */; };
+		B652E19E260049000005D2AF /* GithubSignupViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652E19D260049000005D2AF /* GithubSignupViewController1.swift */; };
+		B652E1A7260049B30005D2AF /* SinguoProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652E1A6260049B30005D2AF /* SinguoProtocols.swift */; };
+		B652E1AF26004DBD0005D2AF /* DefaultImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652E1AE26004DBD0005D2AF /* DefaultImplementations.swift */; };
+		B652E1B426005AF80005D2AF /* BindingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652E1B326005AF80005D2AF /* BindingExtensions.swift */; };
+		B652E1DE260093270005D2AF /* GithubSignupViewModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652E1DD260093270005D2AF /* GithubSignupViewModel1.swift */; };
+		B652E1E3260094800005D2AF /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652E1E2260094800005D2AF /* Wireframe.swift */; };
+		B652E1F426009B440005D2AF /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652E1F326009B440005D2AF /* ActivityIndicator.swift */; };
 		B696175325F5B8B700C6BE23 /* Foundation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B696175225F5B8B700C6BE23 /* Foundation+Extension.swift */; };
 		B6A8219525EDDF1400035695 /* RxTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A8219425EDDF1400035695 /* RxTextFieldViewController.swift */; };
 		B6A8219A25EE062F00035695 /* RxTextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A8219925EE062F00035695 /* RxTextViewViewController.swift */; };
@@ -142,8 +152,18 @@
 		B61D191B25D10D1B000F4A7B /* AlgorithmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmViewController.swift; sourceTree = "<group>"; };
 		B61F6CD125C15AEE00E3A136 /* HeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderFooterView.swift; sourceTree = "<group>"; };
 		B61F6CED25C15FC300E3A136 /* BasisAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasisAnimationViewController.swift; sourceTree = "<group>"; };
+		B62BBC6F25F9ED0700808D30 /* LoginDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDemoViewController.swift; sourceTree = "<group>"; };
+		B62BBC8025F9EECF00808D30 /* LoginDemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDemoViewModel.swift; sourceTree = "<group>"; };
+		B62BBC8525F9FB6100808D30 /* LoginDemoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDemoService.swift; sourceTree = "<group>"; };
 		B63FEE8625E0EEDD00A3715C /* ThirdlibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdlibraryViewController.swift; sourceTree = "<group>"; };
 		B63FEE8B25E0F14500A3715C /* AlamofireLearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireLearnViewController.swift; sourceTree = "<group>"; };
+		B652E19D260049000005D2AF /* GithubSignupViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubSignupViewController1.swift; sourceTree = "<group>"; };
+		B652E1A6260049B30005D2AF /* SinguoProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinguoProtocols.swift; sourceTree = "<group>"; };
+		B652E1AE26004DBD0005D2AF /* DefaultImplementations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultImplementations.swift; sourceTree = "<group>"; };
+		B652E1B326005AF80005D2AF /* BindingExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExtensions.swift; sourceTree = "<group>"; };
+		B652E1DD260093270005D2AF /* GithubSignupViewModel1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubSignupViewModel1.swift; sourceTree = "<group>"; };
+		B652E1E2260094800005D2AF /* Wireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
+		B652E1F326009B440005D2AF /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		B696175225F5B8B700C6BE23 /* Foundation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+Extension.swift"; sourceTree = "<group>"; };
 		B6A8219425EDDF1400035695 /* RxTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTextFieldViewController.swift; sourceTree = "<group>"; };
 		B6A8219925EE062F00035695 /* RxTextViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTextViewViewController.swift; sourceTree = "<group>"; };
@@ -279,6 +299,42 @@
 			path = Algorithm;
 			sourceTree = "<group>";
 		};
+		B62BBC7425F9EDF200808D30 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B652E194260046710005D2AF /* githubSignup */,
+				B62BBC7F25F9EE9900808D30 /* logindemo */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		B62BBC7525F9EDFC00808D30 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				B6B066DE25ECDB3A0075A69E /* RxLabelViewController.swift */,
+				B6B066E825ECE1360075A69E /* RxSwiftViewController.swift */,
+				B6B066ED25ECF4CA0075A69E /* RxBtnViewController.swift */,
+				B6A8219425EDDF1400035695 /* RxTextFieldViewController.swift */,
+				B6A8219925EE062F00035695 /* RxTextViewViewController.swift */,
+				B6A8219E25EE0FA700035695 /* RxOtherViewController.swift */,
+				B6A821A325EE17DA00035695 /* RxDatePickerViewController.swift */,
+				B6A821B925EF275900035695 /* RxCreateViewController.swift */,
+				B6A821BE25F0886000035695 /* RxSubjectViewController.swift */,
+				B6A821C325F1CDDC00035695 /* RxOperatorViewController.swift */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		B62BBC7F25F9EE9900808D30 /* logindemo */ = {
+			isa = PBXGroup;
+			children = (
+				B62BBC6F25F9ED0700808D30 /* LoginDemoViewController.swift */,
+				B62BBC8025F9EECF00808D30 /* LoginDemoViewModel.swift */,
+				B62BBC8525F9FB6100808D30 /* LoginDemoService.swift */,
+			);
+			path = logindemo;
+			sourceTree = "<group>";
+		};
 		B63FEE8525E0EE9E00A3715C /* ThirdLibsystem */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,20 +345,34 @@
 			path = ThirdLibsystem;
 			sourceTree = "<group>";
 		};
+		B652E194260046710005D2AF /* githubSignup */ = {
+			isa = PBXGroup;
+			children = (
+				B652E1F326009B440005D2AF /* ActivityIndicator.swift */,
+				B652E1E2260094800005D2AF /* Wireframe.swift */,
+				B652E1A5260049980005D2AF /* githubSignup1 */,
+				B652E1A6260049B30005D2AF /* SinguoProtocols.swift */,
+				B652E1AE26004DBD0005D2AF /* DefaultImplementations.swift */,
+				B652E1B326005AF80005D2AF /* BindingExtensions.swift */,
+			);
+			path = githubSignup;
+			sourceTree = "<group>";
+		};
+		B652E1A5260049980005D2AF /* githubSignup1 */ = {
+			isa = PBXGroup;
+			children = (
+				B652E19D260049000005D2AF /* GithubSignupViewController1.swift */,
+				B652E1DD260093270005D2AF /* GithubSignupViewModel1.swift */,
+			);
+			path = githubSignup1;
+			sourceTree = "<group>";
+		};
 		B6B066DA25ECDAAC0075A69E /* rxswift */ = {
 			isa = PBXGroup;
 			children = (
-				B6B066DE25ECDB3A0075A69E /* RxLabelViewController.swift */,
 				B6B066E325ECDB520075A69E /* RxSwift.storyboard */,
-				B6B066E825ECE1360075A69E /* RxSwiftViewController.swift */,
-				B6B066ED25ECF4CA0075A69E /* RxBtnViewController.swift */,
-				B6A8219425EDDF1400035695 /* RxTextFieldViewController.swift */,
-				B6A8219925EE062F00035695 /* RxTextViewViewController.swift */,
-				B6A8219E25EE0FA700035695 /* RxOtherViewController.swift */,
-				B6A821A325EE17DA00035695 /* RxDatePickerViewController.swift */,
-				B6A821B925EF275900035695 /* RxCreateViewController.swift */,
-				B6A821BE25F0886000035695 /* RxSubjectViewController.swift */,
-				B6A821C325F1CDDC00035695 /* RxOperatorViewController.swift */,
+				B62BBC7525F9EDFC00808D30 /* other */,
+				B62BBC7425F9EDF200808D30 /* Demo */,
 			);
 			path = rxswift;
 			sourceTree = "<group>";
@@ -688,6 +758,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B62BBC8625F9FB6100808D30 /* LoginDemoService.swift in Sources */,
 				B600386525C3A03400027193 /* PaintLineCapViewController.swift in Sources */,
 				B6B5AAAF25C052810024AADD /* AppDelegate.swift in Sources */,
 				B6B5AA9F25C052810024AADD /* BaseCollectionReusableView.swift in Sources */,
@@ -696,15 +767,19 @@
 				B60038A825C3F0F000027193 /* PaintDottedLineViewController.swift in Sources */,
 				B600389E25C3EEB700027193 /* TextLayerViewController.swift in Sources */,
 				B600384C25C29DFE00027193 /* PaintShadowViewController.swift in Sources */,
+				B652E1AF26004DBD0005D2AF /* DefaultImplementations.swift in Sources */,
+				B652E1F426009B440005D2AF /* ActivityIndicator.swift in Sources */,
 				B6B5AA9B25C052810024AADD /* BaseViewController.swift in Sources */,
 				B600383D25C28B1900027193 /* PaintViewController.swift in Sources */,
 				B6B5AA9825C052810024AADD /* BasisViewModel.swift in Sources */,
+				B652E1A7260049B30005D2AF /* SinguoProtocols.swift in Sources */,
 				B6B5AAB325C052810024AADD /* SceneDelegate.swift in Sources */,
 				B6B5AA9C25C052810024AADD /* BaseTableViewCell.swift in Sources */,
 				B6B5AB5825C1104C0024AADD /* AnimationViewController.swift in Sources */,
 				B6A8219525EDDF1400035695 /* RxTextFieldViewController.swift in Sources */,
 				B6B5AAB025C052810024AADD /* ViewController.swift in Sources */,
 				B600387325C3B8E200027193 /* QuadRaticBezierViewController.swift in Sources */,
+				B62BBC7025F9ED0700808D30 /* LoginDemoViewController.swift in Sources */,
 				B600385B25C2AD7E00027193 /* PaintRoundedRectangleViewController.swift in Sources */,
 				B600384725C28BB000027193 /* PaintLineViewController.swift in Sources */,
 				B60038A325C3EF4100027193 /* CalculationViewController.swift in Sources */,
@@ -717,6 +792,8 @@
 				B6B5AA9E25C052810024AADD /* BaseTableViewHeaderFooterView.swift in Sources */,
 				B6A8219F25EE0FA700035695 /* RxOtherViewController.swift in Sources */,
 				B6A821BF25F0886100035695 /* RxSubjectViewController.swift in Sources */,
+				B652E1DE260093270005D2AF /* GithubSignupViewModel1.swift in Sources */,
+				B652E1B426005AF80005D2AF /* BindingExtensions.swift in Sources */,
 				B61F6CEE25C15FC300E3A136 /* BasisAnimationViewController.swift in Sources */,
 				B6A821C425F1CDDC00035695 /* RxOperatorViewController.swift in Sources */,
 				B600387825C3DF4100027193 /* TripleBezierViewController.swift in Sources */,
@@ -732,6 +809,7 @@
 				B600374025C24A8000027193 /* KeyFrameAnimationViewController.swift in Sources */,
 				B600386A25C3ACFC00027193 /* BezierPathPropertyViewController.swift in Sources */,
 				B60037B825C2563E00027193 /* GroupAnimationViewController.swift in Sources */,
+				B652E1E3260094800005D2AF /* Wireframe.swift in Sources */,
 				B6A8219A25EE062F00035695 /* RxTextViewViewController.swift in Sources */,
 				B60038BC25C3F81E00027193 /* RYQPieChartView.swift in Sources */,
 				B6B5AB9225C125E10024AADD /* TableViewController.swift in Sources */,
@@ -740,10 +818,12 @@
 				B6B5AA9925C052810024AADD /* BasisViewController.swift in Sources */,
 				B600388225C3E65C00027193 /* IrregularGradientViewController.swift in Sources */,
 				B600384225C28B2600027193 /* PaintViewModel.swift in Sources */,
+				B652E19E260049000005D2AF /* GithubSignupViewController1.swift in Sources */,
 				B60038AD25C3F12900027193 /* HistogramViewController.swift in Sources */,
 				B600385125C2A3B800027193 /* PaintTriangleViewController.swift in Sources */,
 				B63FEE8C25E0F14500A3715C /* AlamofireLearnViewController.swift in Sources */,
 				B6B5AAAE25C052810024AADD /* Global.swift in Sources */,
+				B62BBC8125F9EECF00808D30 /* LoginDemoViewModel.swift in Sources */,
 				B6B5AA9D25C052810024AADD /* BaseCollectionViewCell.swift in Sources */,
 				B60038B725C3F7DA00027193 /* PieChartViewController.swift in Sources */,
 				B61D191C25D10D1C000F4A7B /* AlgorithmViewController.swift in Sources */,

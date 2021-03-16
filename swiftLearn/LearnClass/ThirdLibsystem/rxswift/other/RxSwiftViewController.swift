@@ -21,8 +21,9 @@ struct RxSwiftViewModel {
         ClassInfo(name: "RxSwift - Observable 创建", class: RxCreateViewController.self),
         ClassInfo(name: "RxSwift - Subject", class: RxSubjectViewController.self),
         ClassInfo(name: "RxSwift - Operator", class: RxOperatorViewController.self),
+        ClassInfo(name: "Login Demo", class: LoginDemoViewController.self, isStoryboard: true, storyboardId: "LoginDemoVC", storyboardName: storyboardName),
+        ClassInfo(name: "GithubSignup1", class: GithubSignupViewController1.self, isStoryboard: true, storyboardId: "GithubSignupVC1", storyboardName: storyboardName),
     ]
-    
 }
 
 class RxSwiftViewController: TableViewController {
