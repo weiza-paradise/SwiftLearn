@@ -54,9 +54,9 @@ extension PaintRoundedRectangleViewController {
         //线的路径
         
         //此方法可以用来对多个角进行圆角切
-        //        let path = UIBezierPath(roundedRect: view.bounds, byRoundingCorners: UIRectCorner(rawValue: UIRectCorner.RawValue(UInt8(UIRectCorner.topLeft.rawValue) | UInt8(UIRectCorner.bottomRight.rawValue))) , cornerRadii: CGSize.init(width: 20, height: 0))
+        let path = UIBezierPath(roundedRect: circleView.bounds, byRoundingCorners: UIRectCorner(rawValue: UIRectCorner.RawValue(UInt8(UIRectCorner.topLeft.rawValue) | UInt8(UIRectCorner.topRight.rawValue))) , cornerRadii: CGSize.init(width: 20, height: 0))
         //此方法可以用来对单个角进行圆角切
-        let path = UIBezierPath(roundedRect: circleView.bounds, byRoundingCorners: UIRectCorner.topRight, cornerRadii: CGSize.init(width: 20, height: 0))
+        //let path = UIBezierPath(roundedRect: circleView.bounds, byRoundingCorners: UIRectCorner.topRight, cornerRadii: CGSize.init(width: 20, height: 0))
         
         let layer = CAShapeLayer.init()
         layer.lineWidth = 1
