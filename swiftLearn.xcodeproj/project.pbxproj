@@ -49,6 +49,8 @@
 		B652E1DE260093270005D2AF /* GithubSignupViewModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652E1DD260093270005D2AF /* GithubSignupViewModel1.swift */; };
 		B652E1E3260094800005D2AF /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652E1E2260094800005D2AF /* Wireframe.swift */; };
 		B652E1F426009B440005D2AF /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652E1F326009B440005D2AF /* ActivityIndicator.swift */; };
+		B681C5262771736E007BDDFC /* SafeareaSendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B681C5242771736D007BDDFC /* SafeareaSendViewController.swift */; };
+		B681C5272771736E007BDDFC /* SafeareaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B681C5252771736D007BDDFC /* SafeareaViewController.swift */; };
 		B696175325F5B8B700C6BE23 /* Foundation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B696175225F5B8B700C6BE23 /* Foundation+Extension.swift */; };
 		B6A8219525EDDF1400035695 /* RxTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A8219425EDDF1400035695 /* RxTextFieldViewController.swift */; };
 		B6A8219A25EE062F00035695 /* RxTextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A8219925EE062F00035695 /* RxTextViewViewController.swift */; };
@@ -164,6 +166,8 @@
 		B652E1DD260093270005D2AF /* GithubSignupViewModel1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubSignupViewModel1.swift; sourceTree = "<group>"; };
 		B652E1E2260094800005D2AF /* Wireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
 		B652E1F326009B440005D2AF /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		B681C5242771736D007BDDFC /* SafeareaSendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafeareaSendViewController.swift; sourceTree = "<group>"; };
+		B681C5252771736D007BDDFC /* SafeareaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafeareaViewController.swift; sourceTree = "<group>"; };
 		B696175225F5B8B700C6BE23 /* Foundation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+Extension.swift"; sourceTree = "<group>"; };
 		B6A8219425EDDF1400035695 /* RxTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTextFieldViewController.swift; sourceTree = "<group>"; };
 		B6A8219925EE062F00035695 /* RxTextViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTextViewViewController.swift; sourceTree = "<group>"; };
@@ -367,6 +371,15 @@
 			path = githubSignup1;
 			sourceTree = "<group>";
 		};
+		B681C5232771736D007BDDFC /* SafeareaInsets */ = {
+			isa = PBXGroup;
+			children = (
+				B681C5242771736D007BDDFC /* SafeareaSendViewController.swift */,
+				B681C5252771736D007BDDFC /* SafeareaViewController.swift */,
+			);
+			path = SafeareaInsets;
+			sourceTree = "<group>";
+		};
 		B6B066DA25ECDAAC0075A69E /* rxswift */ = {
 			isa = PBXGroup;
 			children = (
@@ -436,6 +449,7 @@
 		B6B5AA7425C052800024AADD /* LearnClass */ = {
 			isa = PBXGroup;
 			children = (
+				B681C5232771736D007BDDFC /* SafeareaInsets */,
 				B63FEE8525E0EE9E00A3715C /* ThirdLibsystem */,
 				B61D192025D10D21000F4A7B /* Algorithm */,
 				B61D18F525D0D2ED000F4A7B /* iOS 底层进阶 */,
@@ -769,6 +783,7 @@
 				B600384C25C29DFE00027193 /* PaintShadowViewController.swift in Sources */,
 				B652E1AF26004DBD0005D2AF /* DefaultImplementations.swift in Sources */,
 				B652E1F426009B440005D2AF /* ActivityIndicator.swift in Sources */,
+				B681C5272771736E007BDDFC /* SafeareaViewController.swift in Sources */,
 				B6B5AA9B25C052810024AADD /* BaseViewController.swift in Sources */,
 				B600383D25C28B1900027193 /* PaintViewController.swift in Sources */,
 				B6B5AA9825C052810024AADD /* BasisViewModel.swift in Sources */,
@@ -782,6 +797,7 @@
 				B62BBC7025F9ED0700808D30 /* LoginDemoViewController.swift in Sources */,
 				B600385B25C2AD7E00027193 /* PaintRoundedRectangleViewController.swift in Sources */,
 				B600384725C28BB000027193 /* PaintLineViewController.swift in Sources */,
+				B681C5262771736E007BDDFC /* SafeareaSendViewController.swift in Sources */,
 				B60038A325C3EF4100027193 /* CalculationViewController.swift in Sources */,
 				B63FEE8725E0EEDD00A3715C /* ThirdlibraryViewController.swift in Sources */,
 				B6B5AB5D25C110630024AADD /* AnimationViewModel.swift in Sources */,
