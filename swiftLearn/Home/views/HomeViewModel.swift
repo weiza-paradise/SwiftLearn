@@ -32,6 +32,7 @@ struct HomeViewModel {
         ClassInfo(name: "算法题", class: AlgorithmViewController.self),
         ClassInfo(name: "iOS底层进阶", class: BottomLayerViewController.self),
         ClassInfo(name: "第三方库", class: ThirdlibraryViewController.self),
+        ClassInfo(name: "Safearea", class: SafeareaViewController.self),
     ]
     
 }
